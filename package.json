@@ -1,0 +1,11 @@
+{
+  "name": "agrisz-dialog",
+  "version": "1.2.0",
+  "description": "the dialog of program",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sunweinan",
+  "license": "ISC"
+}

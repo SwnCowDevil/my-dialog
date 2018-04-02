@@ -1,0 +1,90 @@
+
+.dialog-layer-mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1300;
+	background: rgba(0,0,0,.3);
+}
+.dialog-border {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1300;
+	background: rgba(227,246,184,.5);
+	box-sizing: border-box;
+	overflow: hidden;
+
+
+	.dilog-container {
+		background: #ffffff;
+          
+		.dialog-drag {
+			height: 47px;
+		}
+		.dialog-title {
+			background: #ffffff;
+		}
+
+		.dialog-content {
+			width: 100%;
+			background: #ffffff;
+		}
+
+		
+		.close {
+	    font-size: 14px;
+	    position: absolute;
+	    right: 10px;
+	    top: 10px;
+	    cursor: pointer;
+	  }
+	}
+	.dialog-top {
+		top: 0;
+	}
+
+	.dialog-bottom {
+		bottom: 0;
+	}
+
+	.dialog-left {
+		left: 0;
+	}
+
+	.dialog-right {
+		right: 0;
+	}
+
+	.dialog-top-left {
+		top: 0;
+		left: 0;
+	}
+
+	.dialog-top-right {
+		top: 0;
+		right: 0;
+	}
+
+	.dialog-bottom-left {
+		bottom: 0;
+		left: 0;
+	}
+
+	.dialog-bottom-right {
+		bottom: 0;
+		right: 0;
+	}
+
+	.selectable-box {
+		background: transparent;
+	}
+}
+.active-selectable-box {
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 5000px !important;
+	height: 5000px !important;
+	z-index: 99999;
+}
